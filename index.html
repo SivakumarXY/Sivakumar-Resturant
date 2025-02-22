@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- TailWind CSS CDN -->
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+    "
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link stylesheet -->
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div
+      class="flex items-center justify-between bg-black text-white p-5 sticky top-0"
+    >
+      <h1>Sivakumar</h1>
+
+      <i class="fa-solid fa-bars sm:invisible"></i>
+
+      <ul class="gap-3 hidden sm:flex">
+        <li class="hover: cursor-pointer hover:underline">Home</li>
+        <li class="hover: cursor-pointer hover:underline">About</li>
+        <li class="hover: cursor-pointer hover:underline">Contact</li>
+      </ul>
+    </div>
+
+    <!-- Header Section -->
+
+    <div class="flex m-5 items-center sm:justify-center">
+      <div class="m-5">
+        <h1 class="mb-3">We have to Provide the Best Food Service!</h1>
+
+        <p class="mb-3 font-semibold">Sivakumar Resturant</p>
+
+        <button class="bg-black text-white p-2 rounded-md">Buy Now</button>
+
+        <button class="border border-black p-2 rounded-md">
+          Order Details
+        </button>
+      </div>
+
+      <div>
+        <img
+          src="./Images/mutton Biryiani.webp"
+          alt="biriyani"
+          class="rounded-md h-48 hidden sm:flex"
+        />
+      </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div class="m-5 ml-14">
+      <h1 class="font-semibold text-xl">Choose the Your Favorite Food🤷‍♂️</h1>
+
+      <div class="flex mt-3">
+        <h1>Filter By:</h1>
+
+        <div class="gap-3 ml-5 flex cursor-pointer">
+          <h1 class="hover:underline">Food</h1>
+          <h1 class="hover:underline">Juice</h1>
+          <h1 class="hover:underline">IceCream</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="ml-14 m-2 md:flex">
+      <div class="md:flex gap-3 justify-between">
+        <div>
+          <img
+            src="./biriyani.webp"
+            alt="biriyani"
+            class="w-96 h-72 rounded-md object-cover"
+          />
+          <div class="text-center m-3">
+            <p class="mb-2">Price: ₹249</p>
+            <button class="bg-black text-white p-2 rounded-md w-32">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="./juice.avif"
+            alt="juice"
+            class="w-96 h-72 rounded-md object-cover"
+          />
+          <div class="text-center m-3">
+            <p class="mb-2">Price: ₹149</p>
+            <button class="bg-black text-white p-2 rounded-md w-32">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="Images/ice cream.webp"
+            alt="ice cream"
+            class="w-96 h-72 rounded-md object-cover"
+          />
+          <div class="text-center m-3">
+            <p class="mb-2">Price: ₹349</p>
+            <button class="bg-black text-white p-2 rounded-md w-32">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resturant details -->
+
+    <div class="border-2 border-black rounded-md p-3 w-2/3 ml-14 m-5 md:ml-60">
+      <h1 class="font-semibold">Read the Description</h1>
+
+      <p class="text-sm">
+        Welcome to our vibrant restaurant, where we offer a delightful mix of
+        flavors for every craving. Indulge in our fresh and flavorful seafood
+        dishes, alongside tender chicken and aromatic mutton biryanis. Refresh
+        yourself with a variety of freshly squeezed juice options and treat
+        yourself to a sweet ending with our range of decadent ice creams.
+        Whether you're here for a quick bite or a full meal, our menu promises
+        to satisfy all your taste buds!
+      </p>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="bg-black p-5 text-white">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1>
+            Special Sea Food also available
+            <i class="fa-solid fa-fish"></i>
+          </h1>
+
+          <i class="fa-brands fa-youtube"></i>
+
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </div>
+
+        <div>
+          <h1>Payment Options</h1>
+          <div class="flex gap-3 mt-2">
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-google-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
